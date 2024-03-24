@@ -7,6 +7,9 @@
 
 // Large devices (desktops, 992px and down)
 @media only screen and (max-width: 992px) {
+  #header {
+    margin-top: 3.5rem;
+  }
 }
 
 // Medium devices (tablets, 768px and down)
@@ -39,6 +42,9 @@
         }
       }
     }
+  }
+  #header {
+    margin-top: 2.5rem;
   }
 }
 

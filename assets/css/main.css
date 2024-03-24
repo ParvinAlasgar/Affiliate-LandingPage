@@ -1,3 +1,8 @@
+#header {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 html {
   font-size: 1rem !important;
 }
@@ -19,6 +24,30 @@ html {
   background: linear-gradient(to top, rgb(255, 0, 122) 0%, rgb(142, 0, 116) 100%);
 }
 
+#header {
+  background-image: url(/assets/images/body-bg.png);
+  margin-top: 4.3rem;
+  padding: 5rem 0;
+}
+#header i {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 0, 122);
+}
+#header a {
+  background: linear-gradient(to top, rgb(255, 0, 122) 0%, rgb(142, 0, 116) 100%);
+  border-radius: 2rem;
+}
+#header a:hover {
+  background: rgb(142, 0, 116);
+}
+
+@media only screen and (max-width: 992px) {
+  #header {
+    margin-top: 3.5rem;
+  }
+}
 @media only screen and (max-width: 768px) {
   #nav .logo {
     display: none;
@@ -43,5 +72,8 @@ html {
   }
   #nav ul li a:hover {
     color: rgb(142, 0, 116) !important;
+  }
+  #header {
+    margin-top: 2.5rem;
   }
 }/*# sourceMappingURL=main.css.map */
