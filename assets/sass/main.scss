@@ -1,3 +1,28 @@
 @import "./utils/variables", "./utils/extends";
 @import "./base/base";
 @import "./layouts/navigation", "./layouts/header", "./layouts/responsive";
+
+// main
+#main {
+  // About
+  #about {
+    .wrapper {
+      cursor: pointer;
+      border-color: $color-first !important;
+      transition: all 0.5s;
+      i {
+        color: $color-first;
+      }
+      &:hover {
+        border-top-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        background: $color-mix;
+        i,
+        p,
+        h5 {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+}

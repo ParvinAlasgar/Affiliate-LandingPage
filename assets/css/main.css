@@ -76,4 +76,22 @@ html {
   #header {
     margin-top: 2.5rem;
   }
+}
+#main #about .wrapper {
+  cursor: pointer;
+  border-color: rgb(255, 0, 122) !important;
+  transition: all 0.5s;
+}
+#main #about .wrapper i {
+  color: rgb(255, 0, 122);
+}
+#main #about .wrapper:hover {
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  background: linear-gradient(to top, rgb(255, 0, 122) 0%, rgb(142, 0, 116) 100%);
+}
+#main #about .wrapper:hover i,
+#main #about .wrapper:hover p,
+#main #about .wrapper:hover h5 {
+  color: #fff !important;
 }/*# sourceMappingURL=main.css.map */
