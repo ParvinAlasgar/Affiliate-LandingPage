@@ -1,0 +1,47 @@
+html {
+  font-size: 1rem !important;
+}
+
+#nav {
+  background-color: rgb(255, 0, 122);
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+#nav li {
+  border-radius: 2rem;
+}
+#nav li:nth-child(1) {
+  background: linear-gradient(to top, rgb(255, 0, 122) 0%, rgb(142, 0, 116) 100%);
+}
+#nav li:hover {
+  background: linear-gradient(to top, rgb(255, 0, 122) 0%, rgb(142, 0, 116) 100%);
+}
+
+@media only screen and (max-width: 768px) {
+  #nav .logo {
+    display: none;
+  }
+  #nav ul {
+    justify-content: center !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #nav ul {
+    -moz-column-gap: 0.2rem !important;
+         column-gap: 0.2rem !important;
+  }
+  #nav ul li {
+    padding: unset !important;
+    border-radius: unset !important;
+    background: unset !important;
+  }
+  #nav ul li a {
+    font-size: 0.8rem;
+    transition: color 0.5s;
+  }
+  #nav ul li a:hover {
+    color: rgb(142, 0, 116) !important;
+  }
+}/*# sourceMappingURL=main.css.map */

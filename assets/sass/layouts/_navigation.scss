@@ -1,0 +1,16 @@
+#nav {
+  background-color: $color-first;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  li {
+    border-radius: 2rem;
+    &:nth-child(1) {
+      background: $color-mix;
+    }
+    &:hover {
+      background: $color-mix;
+    }
+  }
+}
