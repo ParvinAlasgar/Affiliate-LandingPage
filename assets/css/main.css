@@ -206,4 +206,13 @@ html {
 }
 #main #team .wrapper .overlay .text i:hover {
   transform: scale(1.5);
+}
+#main #price .wrapper {
+  border-color: rgb(255, 0, 122) !important;
+}
+#main #price .wrapper a {
+  background: linear-gradient(to top, rgb(255, 0, 122) 0%, rgb(142, 0, 116) 100%);
+}
+#main #price .wrapper a:hover {
+  background: rgb(142, 0, 116);
 }/*# sourceMappingURL=main.css.map */

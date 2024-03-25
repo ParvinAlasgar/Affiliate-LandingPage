@@ -144,4 +144,16 @@
       }
     }
   }
+  // Packages
+  #price {
+    .wrapper {
+      border-color: $color-first !important;
+      a {
+        background: $color-mix;
+        &:hover {
+          background: $color-second;
+        }
+      }
+    }
+  }
 }
