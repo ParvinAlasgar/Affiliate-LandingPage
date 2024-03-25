@@ -69,8 +69,18 @@
   #header {
     margin-top: 2.5rem;
   }
+  #footer {
+    li {
+      font-size: 0.5rem;
+    }
+  }
 }
 
 // Extra Small devices (tablets, 320px and down)
 @media only screen and (max-width: 320px) {
+  #footer {
+    li {
+      font-size: 0.4rem;
+    }
+  }
 }
