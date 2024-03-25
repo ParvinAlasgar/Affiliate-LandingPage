@@ -52,4 +52,31 @@
       }
     }
   }
+  // Creative
+  #creative {
+    img {
+      cursor: pointer;
+      transition: transform 0.5s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    li {
+      position: relative;
+      padding-left: 1.3rem;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background: $color-mix;
+        left: 0;
+        top: 0.4rem;
+        transform: rotate(35deg);
+      }
+    }
+    h3 {
+      color: $color-first;
+    }
+  }
 }

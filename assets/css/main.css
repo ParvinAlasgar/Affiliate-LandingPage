@@ -122,4 +122,28 @@ html {
 #main #services .wrapper:hover i,
 #main #services .wrapper:hover h6 {
   color: #fff !important;
+}
+#main #creative img {
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+#main #creative img:hover {
+  transform: scale(1.1);
+}
+#main #creative li {
+  position: relative;
+  padding-left: 1.3rem;
+}
+#main #creative li::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(to top, rgb(255, 0, 122) 0%, rgb(142, 0, 116) 100%);
+  left: 0;
+  top: 0.4rem;
+  transform: rotate(35deg);
+}
+#main #creative h3 {
+  color: rgb(255, 0, 122);
 }/*# sourceMappingURL=main.css.map */
