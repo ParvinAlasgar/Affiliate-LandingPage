@@ -179,4 +179,48 @@
       }
     }
   }
+  // Blog
+  #blog {
+    p {
+      color: $color-first;
+    }
+    .wrapper {
+      &:hover {
+        .content {
+          border: 0.1rem solid $color-first !important;
+        }
+      }
+      .content {
+        transition: border 0.5s;
+        li {
+          a {
+            transition: color 0.5s;
+          }
+          &:hover {
+            a {
+              color: $color-first !important;
+            }
+          }
+          i {
+            margin-right: 0.2rem;
+            color: $color-first !important;
+          }
+        }
+        p {
+          color: $color-second;
+        }
+      }
+    }
+    .dots {
+      .dot {
+        cursor: pointer;
+        background-color: $color-first;
+        border-radius: 50%;
+        transition: background-color 0.5s;
+        &:nth-child(2):hover {
+          background-color: $color-first !important;
+        }
+      }
+    }
+  }
 }

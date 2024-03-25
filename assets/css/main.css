@@ -235,4 +235,35 @@ html {
 }
 #main #success .wrapper:hover {
   transform: translateY(-1rem);
+}
+#main #blog p {
+  color: rgb(255, 0, 122);
+}
+#main #blog .wrapper:hover .content {
+  border: 0.1rem solid rgb(255, 0, 122) !important;
+}
+#main #blog .wrapper .content {
+  transition: border 0.5s;
+}
+#main #blog .wrapper .content li a {
+  transition: color 0.5s;
+}
+#main #blog .wrapper .content li:hover a {
+  color: rgb(255, 0, 122) !important;
+}
+#main #blog .wrapper .content li i {
+  margin-right: 0.2rem;
+  color: rgb(255, 0, 122) !important;
+}
+#main #blog .wrapper .content p {
+  color: rgb(142, 0, 116);
+}
+#main #blog .dots .dot {
+  cursor: pointer;
+  background-color: rgb(255, 0, 122);
+  border-radius: 50%;
+  transition: background-color 0.5s;
+}
+#main #blog .dots .dot:nth-child(2):hover {
+  background-color: rgb(255, 0, 122) !important;
 }/*# sourceMappingURL=main.css.map */
