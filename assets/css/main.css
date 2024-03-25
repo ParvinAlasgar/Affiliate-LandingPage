@@ -94,4 +94,32 @@ html {
 #main #about .wrapper:hover p,
 #main #about .wrapper:hover h5 {
   color: #fff !important;
+}
+#main #services p {
+  color: rgb(255, 0, 122);
+}
+#main #services .wrapper {
+  cursor: pointer;
+  border-top-left-radius: 3rem;
+  -webkit-clip-path: inset(1.5rem);
+          clip-path: inset(1.5rem);
+  transition: -webkit-clip-path 0.5s;
+  transition: clip-path 0.5s;
+  transition: clip-path 0.5s, -webkit-clip-path 0.5s;
+}
+#main #services .wrapper i {
+  color: rgb(255, 0, 122);
+  transition: color 0.5s;
+}
+#main #services .wrapper h6 {
+  transition: color 0.5s;
+}
+#main #services .wrapper:hover {
+  background: linear-gradient(to top, rgb(255, 0, 122) 0%, rgb(142, 0, 116) 100%);
+  -webkit-clip-path: inset(0rem);
+          clip-path: inset(0rem);
+}
+#main #services .wrapper:hover i,
+#main #services .wrapper:hover h6 {
+  color: #fff !important;
 }/*# sourceMappingURL=main.css.map */

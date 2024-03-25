@@ -25,4 +25,31 @@
       }
     }
   }
+  // Services
+  #services {
+    p {
+      color: $color-first;
+    }
+    .wrapper {
+      cursor: pointer;
+      border-top-left-radius: 3rem;
+      i {
+        color: $color-first;
+        transition: color 0.5s;
+      }
+      h6 {
+        transition: color 0.5s;
+      }
+      clip-path: inset(1.5rem);
+      transition: clip-path 0.5s;
+      &:hover {
+        background: $color-mix;
+        i,
+        h6 {
+          color: #fff !important;
+        }
+        clip-path: inset(0rem);
+      }
+    }
+  }
 }
