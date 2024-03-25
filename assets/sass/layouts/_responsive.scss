@@ -18,6 +18,11 @@
       }
     }
   }
+  #footer {
+    ul {
+      margin-top: 9rem;
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and down)
@@ -28,6 +33,16 @@
     }
     ul {
       justify-content: center !important;
+    }
+  }
+  #footer {
+    position: unset !important;
+    .subscribe {
+      position: unset !important;
+      transform: unset !important;
+    }
+    ul {
+      margin-top: 2rem !important;
     }
   }
 }

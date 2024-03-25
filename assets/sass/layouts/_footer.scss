@@ -1,0 +1,23 @@
+#footer {
+  .subscribe {
+    border-left: 0.3rem dashed $color-first !important;
+    top: -9rem;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  ul {
+    margin-top: 5rem;
+    li {
+      transition: background-color 0.5s;
+      i {
+        color: $color-first;
+      }
+      &:hover {
+        background-color: $color-first;
+        i {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+}

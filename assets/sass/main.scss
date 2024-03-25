@@ -1,6 +1,7 @@
 @import "./utils/variables", "./utils/extends";
 @import "./base/base";
-@import "./layouts/navigation", "./layouts/header", "./layouts/responsive";
+@import "./layouts/navigation", "./layouts/header", "./layouts/footer",
+  "./layouts/responsive";
 
 // main
 #main {
@@ -225,6 +226,7 @@
   }
   // Contact{
   #contact {
+    padding: 5rem 0 10rem 0;
     background-image: url(/assets/images/contact-us.jpg);
     @extend %background-image;
     position: relative;

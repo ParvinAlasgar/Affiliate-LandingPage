@@ -43,6 +43,28 @@ html {
   background: rgb(142, 0, 116);
 }
 
+#footer .subscribe {
+  border-left: 0.3rem dashed rgb(255, 0, 122) !important;
+  top: -9rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+#footer ul {
+  margin-top: 5rem;
+}
+#footer ul li {
+  transition: background-color 0.5s;
+}
+#footer ul li i {
+  color: rgb(255, 0, 122);
+}
+#footer ul li:hover {
+  background-color: rgb(255, 0, 122);
+}
+#footer ul li:hover i {
+  color: #fff !important;
+}
+
 @media only screen and (max-width: 992px) {
   #header {
     margin-top: 3.5rem;
@@ -53,6 +75,9 @@ html {
   #choose .row::before {
     display: none !important;
   }
+  #footer ul {
+    margin-top: 9rem;
+  }
 }
 @media only screen and (max-width: 768px) {
   #nav .logo {
@@ -60,6 +85,16 @@ html {
   }
   #nav ul {
     justify-content: center !important;
+  }
+  #footer {
+    position: unset !important;
+  }
+  #footer .subscribe {
+    position: unset !important;
+    transform: unset !important;
+  }
+  #footer ul {
+    margin-top: 2rem !important;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -268,6 +303,7 @@ html {
   background-color: rgb(255, 0, 122) !important;
 }
 #main #contact {
+  padding: 5rem 0 10rem 0;
   background-image: url(/assets/images/contact-us.jpg);
   position: relative;
   z-index: 1;
