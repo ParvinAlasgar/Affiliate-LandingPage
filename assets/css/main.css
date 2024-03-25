@@ -215,4 +215,14 @@ html {
 }
 #main #price .wrapper a:hover {
   background: rgb(142, 0, 116);
+}
+#main #testimonial {
+  background-image: url(/assets/images/testimonial-bg.jpg);
+  padding: 0 0 7rem 0;
+}
+#main #testimonial .wrapper {
+  background-color: rgba(255, 0, 122, 0.6);
+  border-color: rgb(255, 0, 122) !important;
+  border-bottom-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
 }/*# sourceMappingURL=main.css.map */

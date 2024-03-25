@@ -156,4 +156,15 @@
       }
     }
   }
+  // Testimonial
+  #testimonial {
+    background-image: url(/assets/images/testimonial-bg.jpg);
+    padding: 0 0 7rem 0;
+    .wrapper {
+      background-color: rgba($color: $color-first, $alpha: 0.6);
+      border-color: $color-first !important;
+      border-bottom-left-radius: 10rem;
+      border-bottom-right-radius: 10rem;
+    }
+  }
 }
