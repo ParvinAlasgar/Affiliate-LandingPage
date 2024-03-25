@@ -172,4 +172,38 @@ html {
 #main #choose .row .wrapper:hover {
   border-top-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
+}
+#main #team p {
+  color: rgb(255, 0, 122);
+}
+#main #team .wrapper img {
+  transition: transform 0.5s;
+}
+#main #team .wrapper:hover .overlay {
+  opacity: 0.3;
+  transform: scale(1.1);
+}
+#main #team .wrapper:hover img {
+  transform: scale(1.1);
+}
+#main #team .wrapper .overlay {
+  cursor: pointer;
+  background-color: rgb(255, 0, 122);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+#main #team .wrapper .overlay .text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#main #team .wrapper .overlay .text i {
+  transition: transform 0.5s;
+}
+#main #team .wrapper .overlay .text i:hover {
+  transform: scale(1.5);
 }/*# sourceMappingURL=main.css.map */

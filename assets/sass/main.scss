@@ -103,4 +103,45 @@
       }
     }
   }
+  // Team
+  #team {
+    p {
+      color: $color-first;
+    }
+    .wrapper {
+      img {
+        transition: transform 0.5s;
+      }
+      &:hover {
+        .overlay {
+          opacity: 0.3;
+          transform: scale(1.1);
+        }
+        img {
+          transform: scale(1.1);
+        }
+      }
+      .overlay {
+        cursor: pointer;
+        background-color: $color-first;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all 0.5s;
+        .text {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          i {
+            transition: transform 0.5s;
+            &:hover {
+              transform: scale(1.5);
+            }
+          }
+        }
+      }
+    }
+  }
 }
