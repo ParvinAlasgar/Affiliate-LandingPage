@@ -1,4 +1,4 @@
-#main #choose, #header {
+#main #success, #main #choose, #header {
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -225,4 +225,14 @@ html {
   border-color: rgb(255, 0, 122) !important;
   border-bottom-left-radius: 10rem;
   border-bottom-right-radius: 10rem;
+}
+#main #success {
+  background-image: url(/assets/images/counter-bg.jpg);
+  padding: 5rem 0;
+}
+#main #success .wrapper {
+  transition: transform 0.5s;
+}
+#main #success .wrapper:hover {
+  transform: translateY(-1rem);
 }/*# sourceMappingURL=main.css.map */

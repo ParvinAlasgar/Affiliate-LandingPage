@@ -167,4 +167,16 @@
       border-bottom-right-radius: 10rem;
     }
   }
+  // Success
+  #success {
+    background-image: url(/assets/images/counter-bg.jpg);
+    @extend %background-image;
+    padding: 5rem 0;
+    .wrapper {
+      transition: transform 0.5s;
+      &:hover {
+        transform: translateY(-1rem);
+      }
+    }
+  }
 }
