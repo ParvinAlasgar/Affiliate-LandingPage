@@ -1,4 +1,4 @@
-#main #success, #main #choose, #header {
+#main #contact, #main #success, #main #choose, #header {
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -266,4 +266,38 @@ html {
 }
 #main #blog .dots .dot:nth-child(2):hover {
   background-color: rgb(255, 0, 122) !important;
+}
+#main #contact {
+  background-image: url(/assets/images/contact-us.jpg);
+  position: relative;
+  z-index: 1;
+}
+#main #contact:after {
+  content: "";
+  background-color: rgb(255, 0, 122);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+#main #contact .wrapper:hover {
+  background: linear-gradient(to top, rgb(255, 0, 122) 0%, rgb(142, 0, 116) 100%);
+}
+#main #contact .wrapper:hover i,
+#main #contact .wrapper:hover a {
+  color: #fff !important;
+}
+#main #contact .wrapper li i,
+#main #contact .wrapper li a {
+  color: rgb(255, 0, 122) !important;
+}
+#main #contact input::-moz-placeholder, #main #contact textarea::-moz-placeholder {
+  color: #fff !important;
+}
+#main #contact input::placeholder,
+#main #contact textarea::placeholder {
+  color: #fff !important;
 }/*# sourceMappingURL=main.css.map */

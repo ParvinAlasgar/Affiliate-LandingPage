@@ -223,4 +223,41 @@
       }
     }
   }
+  // Contact{
+  #contact {
+    background-image: url(/assets/images/contact-us.jpg);
+    @extend %background-image;
+    position: relative;
+    z-index: 1;
+    &:after {
+      content: "";
+      background-color: $color-first;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.5;
+      z-index: -1;
+    }
+    .wrapper {
+      &:hover {
+        background: $color-mix;
+        i,
+        a {
+          color: #fff !important;
+        }
+      }
+      li {
+        i,
+        a {
+          color: $color-first !important;
+        }
+      }
+    }
+    input::placeholder,
+    textarea::placeholder {
+      color: #fff !important;
+    }
+  }
 }
