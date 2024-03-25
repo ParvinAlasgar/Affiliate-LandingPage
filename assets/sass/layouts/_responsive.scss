@@ -10,6 +10,14 @@
   #header {
     margin-top: 3.5rem;
   }
+  #choose {
+    padding: 6rem 0 !important;
+    .row {
+      &::before {
+        display: none !important;
+      }
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and down)

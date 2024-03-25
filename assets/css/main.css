@@ -1,4 +1,4 @@
-#header {
+#main #choose, #header {
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -46,6 +46,12 @@ html {
 @media only screen and (max-width: 992px) {
   #header {
     margin-top: 3.5rem;
+  }
+  #choose {
+    padding: 6rem 0 !important;
+  }
+  #choose .row::before {
+    display: none !important;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -146,4 +152,24 @@ html {
 }
 #main #creative h3 {
   color: rgb(255, 0, 122);
+}
+#main #choose {
+  position: relative;
+  background-image: url(/assets/images/banner_bg.jpg);
+  padding-top: 20rem;
+}
+#main #choose .row::before {
+  content: url(/assets/images/teacher-image.png);
+  position: absolute;
+  top: -420px;
+  right: 0;
+}
+#main #choose .row .wrapper {
+  cursor: pointer;
+  background-color: rgba(142, 0, 116, 0.4);
+  transition: all 0.5s;
+}
+#main #choose .row .wrapper:hover {
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }/*# sourceMappingURL=main.css.map */

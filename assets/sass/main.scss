@@ -79,4 +79,28 @@
       color: $color-first;
     }
   }
+  // Choose
+  #choose {
+    position: relative;
+    background-image: url(/assets/images/banner_bg.jpg);
+    @extend %background-image;
+    padding-top: 20rem;
+    .row {
+      &::before {
+        content: url(/assets/images/teacher-image.png);
+        position: absolute;
+        top: -420px;
+        right: 0;
+      }
+      .wrapper {
+        cursor: pointer;
+        background-color: rgb($color: $color-second, $alpha: 0.4);
+        transition: all 0.5s;
+        &:hover {
+          border-top-left-radius: 2rem;
+          border-bottom-right-radius: 2rem;
+        }
+      }
+    }
+  }
 }
